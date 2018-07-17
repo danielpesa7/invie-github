@@ -10,12 +10,21 @@
             max-width: 100%;
             vertical-align: top;
         }
+        img#responsive{
+            display: none;
+        }
+        @media screen and (max-width: 768px){
+            img#responsive{
+                display: block;
+            }
+        }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
         <script src="main.js"></script>
     </head>
     <body>
+        <img src = "invie-responsive.png" alt = "" id="responsive">
         <img src = "header.jpg" alt = "">
         <img src = "hero.jpg" alt = "">
         <img src = "acustica.jpg" alt="">
